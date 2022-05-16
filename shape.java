@@ -26,3 +26,14 @@ class Circle extends Shape {
     return 3.14 * radius * radius; 
   }
 }
+// A Cuandrat is un costat per un costat
+
+class Cuandrat extends Shape {
+  private double costat;
+  public Cuandrat(double costat) {
+    this.costat = costat; 
+  }
+  public double getArea() {
+    return costat * costat; 
+  }
+}
